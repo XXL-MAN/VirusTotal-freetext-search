@@ -22,9 +22,14 @@ Este script es ideal para investigadores de seguridad, administradores de sistem
 
 # Pasos para instalar y usar el script:
 
-## Instalar Tampermonkey:
+### Instalar Tampermonkey:
 
-Si no tienes Tampermonkey instalado, instálalo desde la tienda de extensiones de tu navegador (disponible para Chrome, Firefox, Safari, etc.).
+Si no tienes Tampermonkey instalado, instálalo desde la tienda de extensiones de tu navegador:
+
+- [Tampermonkey para Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+- [Tampermonkey para Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+- [Tampermonkey para Safari](https://apps.apple.com/us/app/tampermonkey/id1482490089)
+
 
 ## Crear el Script:
 
@@ -63,4 +68,4 @@ Si no tienes Tampermonkey instalado, instálalo desde la tienda de extensiones d
 
 ## MyPublicInbox
 
-- Si me contactas a través de mypublicinbox.com, aparte de recibir siempre una respuesta, los créditos se donan a causas nobles. -> mypublicinbox.com/thexxlman
+- Si me contactas a través de mypublicinbox.com, aparte de recibir siempre una respuesta, los créditos se donan a causas nobles. -> [mypublicinbox.com/thexxlman](https://mypublicinbox.com/thexxlman)
