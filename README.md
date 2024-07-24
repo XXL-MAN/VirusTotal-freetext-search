@@ -1,7 +1,7 @@
 # VirusTotal-freetext-search by Andrés Naranjo @TheXXLMAN
 ## Descripción del Script
 
-Este script es una extensión de Tampermonkey que permite a los usuarios buscar rápidamente cualquier texto seleccionado en VirusTotal. Al instalar y habilitar este script, los usuarios pueden seleccionar cualquier fragmento de texto en una página web y, a través de una opción en el menú contextual (clic derecho), realizar una búsqueda directa en VirusTotal. El script simplifica el proceso de verificación de seguridad, proporcionando una herramienta rápida y eficiente para investigar URLs, dominios, IPs, y archivos directamente desde el navegador.
+Este script es una extensión de Tampermonkey que permite a los usuarios buscar rápidamente cualquier texto seleccionado en VirusTotal. Al instalar y habilitar este script, los usuarios pueden seleccionar cualquier fragmento de texto en una página web y, a través de una opción en el menú contextual (clic derecho), realizar una búsqueda directa en VirusTotal. El script simplifica el proceso de verificación de seguridad, proporcionando una herramienta rápida y eficiente para investigar URLs, dominios, IPs, y archivos directamente desde el navegador. Este script no tiene relación directa ni autorización oficial de Virustotal.
 
 ### Características Principales
 
