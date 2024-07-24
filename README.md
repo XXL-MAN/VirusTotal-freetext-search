@@ -1,4 +1,25 @@
 # VirusTotal-freetext-search by Andrés Naranjo @TheXXLMAN
+## Descripción del Script
+
+Este script es una extensión de Tampermonkey que permite a los usuarios buscar rápidamente cualquier texto seleccionado en VirusTotal. Al instalar y habilitar este script, los usuarios pueden seleccionar cualquier fragmento de texto en una página web y, a través de una opción en el menú contextual (clic derecho), realizar una búsqueda directa en VirusTotal. El script simplifica el proceso de verificación de seguridad, proporcionando una herramienta rápida y eficiente para investigar URLs, dominios, IPs, y archivos directamente desde el navegador.
+
+### Características Principales
+
+1. **Integración Sencilla**: Se instala fácilmente a través de Tampermonkey, una extensión popular para la gestión de scripts de usuario en navegadores.
+2. **Búsqueda Rápida**: Permite a los usuarios buscar el texto seleccionado en VirusTotal con un solo clic.
+3. **Menú Contextual**: Añade una opción "Search in VirusTotal" al menú contextual del navegador cuando hay texto seleccionado.
+4. **Apertura en Nueva Pestaña**: Realiza la búsqueda en una nueva pestaña, manteniendo la página original intacta.
+5. **Código Limpio y Eficiente**: Utiliza funciones de Tampermonkey como `GM_registerMenuCommand` y `GM_addStyle` para registrar comandos de menú y aplicar estilos CSS personalizados.
+
+### Cómo Funciona
+
+- **Función `searchInVirusTotal`**: Captura el texto seleccionado por el usuario y abre una nueva pestaña con una búsqueda en VirusTotal.
+- **Comando de Menú**: Registra un comando de menú que aparece en el menú contextual del navegador.
+- **Evento `contextmenu`**: Detecta si hay texto seleccionado al hacer clic derecho y muestra la opción de búsqueda en VirusTotal.
+
+Este script es ideal para investigadores de seguridad, administradores de sistemas, y cualquier persona que necesite verificar rápidamente la reputación de URLs, dominios, y otros elementos sospechosos en VirusTotal.
+
+
 # Pasos para instalar y usar el script:
 
 ## Instalar Tampermonkey:
