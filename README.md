@@ -63,4 +63,4 @@ Si no tienes Tampermonkey instalado, instálalo desde la tienda de extensiones d
 
 ## MyPublicInbox
 
-- Si me contactas a través de mypublicinbox.com los créditos se donan a causas nobles.
+- Si me contactas a través de mypublicinbox.com, aparte de recibir siempre una respuesta, los créditos se donan a causas nobles. -> mypublicinbox.com/thexxlman
