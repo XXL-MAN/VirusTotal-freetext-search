@@ -8,7 +8,7 @@ Este script es una extensión de Tampermonkey que permite a los usuarios buscar 
 1. **Integración Sencilla**: Se instala fácilmente a través de Tampermonkey, una extensión popular para la gestión de scripts de usuario en navegadores.
 2. **Búsqueda Rápida**: Permite a los usuarios buscar el texto seleccionado en VirusTotal con un solo clic.
 3. **Menú Contextual**: Añade una opción "Search in VirusTotal" al menú contextual del navegador cuando hay texto seleccionado.
-4. **Apertura en Nueva Pestaña**: Realiza la búsqueda en una nueva pestaña, manteniendo la página original intacta.
+4. **Apertura en Nueva Pestaña**: Realiza la búsqueda en una nueva pestaña, manteniendo la página original en el navegador.
 5. **Código Limpio y Eficiente**: Utiliza funciones de Tampermonkey como `GM_registerMenuCommand` y `GM_addStyle` para registrar comandos de menú y aplicar estilos CSS personalizados.
 
 ### Cómo Funciona
@@ -17,7 +17,7 @@ Este script es una extensión de Tampermonkey que permite a los usuarios buscar 
 - **Comando de Menú**: Registra un comando de menú que aparece en el menú contextual del navegador.
 - **Evento `contextmenu`**: Detecta si hay texto seleccionado al hacer clic derecho y muestra la opción de búsqueda en VirusTotal.
 
-Este script es ideal para investigadores de seguridad, administradores de sistemas, y cualquier persona que necesite verificar rápidamente la reputación de URLs, dominios, y otros elementos sospechosos en VirusTotal.
+Este script es ideal para investigadores de seguridad, administradores de sistemas, y cualquier persona que necesite verificar rápidamente la reputación de URLs, hashes, dominios, hostnames, y otros elementos sospechosos en VirusTotal.
 
 
 # Pasos para instalar y usar el script:
