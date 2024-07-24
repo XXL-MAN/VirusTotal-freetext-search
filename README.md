@@ -60,3 +60,7 @@ Si no tienes Tampermonkey instalado, instálalo desde la tienda de extensiones d
 2. Haz clic derecho para abrir el menú contextual.
 3. Si el texto está seleccionado, aparecerá la opción "Search in VirusTotal".
 4. Haz clic en "Search in VirusTotal" para abrir una nueva pestaña con los resultados de búsqueda en VirusTotal.
+
+## MyPublicInbox
+
+- Si me contactas a través de mypublicinbox.com los créditos se donan a causas nobles.
