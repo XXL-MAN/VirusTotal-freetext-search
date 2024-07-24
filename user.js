@@ -43,12 +43,29 @@
 
     // Add event listener for context menu
     document.addEventListener('contextmenu', function(event) {
+        // Remove any existing custom context menu item
+        const existingMenuItem = document.getElementById('vt-search-context-menu');
+        if (existingMenuItem) {
+            existingMenuItem.remove();
+        }
+
         const selectedText = window.getSelection().toString().trim();
         if (selectedText) {
             const contextMenu = document.createElement('menuitem');
             contextMenu.label = 'Search in VirusTotal';
             contextMenu.id = 'vt-search-context-menu';
             contextMenu.onclick = searchInVirusTotal;
+            contextMenu.style.cursor = 'pointer';
+            contextMenu.style.padding = '5px';
+            contextMenu.style.backgroundColor = '#f0f0f0';
+            contextMenu.style.border = '1px solid #ccc';
+            contextMenu.style.margin = '2px 0';
+            contextMenu.onmouseover = function() {
+                contextMenu.style.backgroundColor = '#e0e0e0';
+            };
+            contextMenu.onmouseout = function() {
+                contextMenu.style.backgroundColor = '#f0f0f0';
+            };
             event.target.appendChild(contextMenu);
         }
     });
