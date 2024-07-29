@@ -2,7 +2,8 @@
 // @name         VirusTotal Extension Free TEXT
 // @namespace    http://www.xxlman.es/
 // @version      0.1
-// @description  Buscar texto seleccionado en VirusTotal desde el menú contextual
+// @icon         https://www.svgrepo.com/show/331633/virustotal.svg
+// @description  Buscar texto seleccionado en VirusTotal desde el menú contextual. Esta extensión no está avalada, ni soportada por VIRUSTOTAL de ninguna forma.
 // @author       Andrés Naranjo @TheXXLMAN
 // @match        *://*/*
 // @grant        GM_addStyle
